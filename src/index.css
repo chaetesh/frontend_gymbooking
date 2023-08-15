@@ -1,4 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  background-color: #db346b;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,7 +13,52 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media only screen and (min-width: 1200px) {
+
+  /* CSS effects for large screens */
+  .nav-custom {
+    padding-left: 45vw;
+  }
+}
+
+.btn-download {
+  background: #75b83b;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  height: 40px;
+  letter-spacing: 1px;
+  width: 200px;
+  margin-left: 36%;
+}
+
+.text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.style-h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.text-underline-hover {
+  text-decoration: none;
+}
+
+.text-underline-hover:hover {
+  text-decoration: underline;
+}
+
+.box{
+  margin: 80px 0px;
 }
