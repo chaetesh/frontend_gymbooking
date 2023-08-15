@@ -7,9 +7,9 @@ import Lottie from "lottie-react";
 const Content1 = () => {
   return (
     <>
-      <div class="container text-center p-3">
+      <div class="container p-3">
         <div class="row">
-          <div class="col text-white text-center text-middle" style={{ width: "50vw" }}>
+          <div class="col text-white text-middle" style={{ width: "50vw" }}>
             <h1 className="p-4 style-h1">Get Fit, Strong & More Confident</h1>
             <p>
               <span className="fw-bold">Exercise regularly: </span>
@@ -40,7 +40,7 @@ const Content1 = () => {
               your progress. Stay focused on the positive and focus on the
               progress you have made.
             </p>
-            <p className="mt-5">
+            <p className="mt-5 text-center">
               Get now <span style={{ color: "#75b83b" }}>Maikei</span> app from
               playstore
             </p>

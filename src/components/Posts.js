@@ -18,7 +18,7 @@ const Posts = () => {
             alt="Norway"
             radius={27}
             style={{
-              width: "50%",
+              width: "30%",
               margin: "auto",
               padding: "5px 0px",
             }}
@@ -56,7 +56,7 @@ const Posts = () => {
             alt="Norway"
             radius={27}
             style={{
-              width: "50%",
+              width: "30%",
               margin: "auto",
               padding: "5px 0px",
             }}
@@ -94,7 +94,7 @@ const Posts = () => {
             alt="Norway"
             radius={27}
             style={{
-              width: "50%",
+              width: "30%",
               margin: "auto",
               padding: "5px 0px",
             }}

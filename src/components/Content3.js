@@ -7,10 +7,10 @@ import Lottie from "lottie-react";
 const Content3 = () => {
   return (
     <>
-      <div class="container text-center p-3">
+      <div class="container p-3">
         <div class="row">
           <div
-            class="col text-white text-center text-middle"
+            class="col text-white text-middle"
             style={{ width: "50vw" }}
           >
             <h1 className="p-4 style-h1">Take Control Your Game</h1>

@@ -12,16 +12,16 @@ const Footer = () => {
           position: "",
           bottom: "0",
           padding: "50px 25px",
-          marginLeft: "50px",
+          marginLeft: "25px",
         }}
       >
         <div className="">
           <div className="row row-30">
             <div
               className="col-md-4 col-xl-5 d-flex"
-              style={{ alignItems: "center" }}
+              style={{ alignItems: "center"}}
             >
-              <div className="pr-xl-4 text-center">
+              <div className="pr-xl-4">
                 <p>
                   MAIKEI is a booking App founded by Jackson in october 2022,The
                   brand name "maikei" it is a metaphor for life. It can
@@ -47,7 +47,7 @@ const Footer = () => {
                     href="tel:9863015792"
                     className="text-white text-decoration-none"
                   >
-                    Your Number
+                    +91 8974922925
                   </a>
                 </dd>
               </dl>

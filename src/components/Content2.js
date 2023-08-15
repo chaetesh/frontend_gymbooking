@@ -7,7 +7,7 @@ import Lottie from "lottie-react";
 const Content2 = () => {
   return (
     <>
-      <div class="container text-center p-3 mt-5">
+      <div class="container p-3 mt-5">
         <div class="row">
           <div class="col">
             <Lottie
@@ -28,7 +28,7 @@ const Content2 = () => {
           </div>
 
           <div
-            class="col text-white text-center text-middle"
+            class="col text-white text-middle"
             style={{ width: "50vw" }}
           >
             <h1 className="p-4 style-h1">Book Early & Save More</h1>

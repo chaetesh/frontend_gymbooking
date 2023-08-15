@@ -83,7 +83,7 @@ const Navbar = () => {
                     src="/Maikei.png"
                     class="navbar-brand mt-2"
                     href="#"
-                    style={{ width: "150px", height: "80px" }}
+                    style={{ width: "120px", height: "65px" }}
                   ></img>
                 </a>
               </div>
@@ -97,7 +97,7 @@ const Navbar = () => {
       >
         <div
           class="container-fluid"
-          style={{ backgroundColor: "#db346b", height: "9vh",paddingLeft:'30px' }}
+          style={{ backgroundColor: "#db346b", height: "9vh",paddingLeft:'45px' }}
         >
           <button
             class="navbar-toggler"
@@ -133,6 +133,20 @@ const Navbar = () => {
                 style={{ fontSize: "1.1rem" }}
               >
                 Posts
+              </Link>
+              <Link
+                class="nav-link text-white text-underline-hover"
+                to="/posts"
+                style={{ fontSize: "1.1rem" }}
+              >
+                My Tickets
+              </Link>
+              <Link
+                class="nav-link text-white text-underline-hover"
+                to="/posts"
+                style={{ fontSize: "1.1rem" }}
+              >
+                Offers&Copouns
               </Link>
               <a
                 class="nav-link text-white"
