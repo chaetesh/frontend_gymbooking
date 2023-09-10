@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: #db346b;
+  background-color: #88C949;
+  /* background-image: linear-gradient(45deg,lightgreen,#88C949); */
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -46,7 +47,7 @@ code {
   justify-content: center;
 }
 
-.style-h1{
+.style-h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
@@ -59,6 +60,148 @@ code {
   text-decoration: underline;
 }
 
-.box{
+.hover-text-white:hover{
+  color: white;
+}
+
+.box {
   margin: 80px 0px;
+}
+
+
+#image #plane {
+  position: absolute;
+  width: 400px;
+  left: 40%;
+  top: -5%;
+}
+
+#info {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 50px;
+  font-size: 25px;
+  font-weight: 600;
+  background: #333;
+  color: #fff;
+  margin-bottom: 5%;
+}
+
+.btn:hover {
+  background: #32a0e9;
+}
+
+.offer {
+  font-size: 5rem;
+}
+
+#mobile-plane {
+  display: none;
+}
+
+@media(min-width:768px) and (max-width:991px) {
+  #image #plane {
+    width: 350px;
+    left: 20%;
+  }
+
+  .offer {
+    font-size: 3rem;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+
+  #mobile-plane {
+    display: none;
+  }
+}
+
+@media(min-width:431px) and (max-width:767px) {
+  #mobile-plane {
+    display: none;
+  }
+
+  #image {
+    display: none;
+  }
+
+  #info {
+    border-radius: 10px;
+    padding: 180px 0 10px;
+    background: url('https://image.freepik.com/free-vector/modern-metropolis-night-cityscape-cartoon-vector_1441-2959.jpg') no-repeat center center/cover;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0;
+    height: 580px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+}
+
+@media(max-width:431px) {
+  .container {
+    max-width: 100%;
+    padding: 0;
+    height: 580px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  #image {
+    display: none;
+  }
+
+  .coupon {
+    color: #fff;
+  }
+
+  #info {
+    border-radius: 10px;
+    padding: 180px 0 10px;
+    background: url('https://image.freepik.com/free-vector/modern-metropolis-night-cityscape-cartoon-vector_1441-2959.jpg') no-repeat center center/cover;
+  }
+
+  .btn {
+    background-color: #eee;
+    color: #333;
+  }
+
+  .btn:hover {
+    background-color: #7311cf;
+    color: #fff;
+  }
+
+  #info #mobile-plane {
+    display: block;
+    z-index: 1;
+  }
+
+  #info #mobile-plane img {
+    position: absolute;
+    width: 300px;
+    top: 10%;
+    left: 10%;
+  }
+}
+
+@media(max-width:340px) {
+  .offer {
+    font-size: 2.9rem;
+  }
+
+  .container {
+    height: 500px;
+  }
+
+  #info #mobile-plane img {
+    width: 200px;
+  }
 }

@@ -11,8 +11,8 @@ const PreviousBtn = (props) => {
       {currentSlide !== 0 && (
         <div className={className} onClick={onClick}>
           <i
-            class="fa-solid fa-caret-left text-white"
-            style={{ color: "blue", fontSize: "30px" }}
+            class="fa-solid fa-caret-left \"
+            style={{ color: "black", fontSize: "30px" }}
           ></i>
         </div>
       )}
@@ -26,8 +26,8 @@ const NextBtn = (props) => {
       {currentSlide !== slideCount - slidesToShow && (
         <div className={className} onClick={onClick}>
           <i
-            class="fa-solid fa-caret-right text-white"
-            style={{ color: "blue", fontSize: "30px" }}
+            class="fa-solid fa-caret-right \"
+            style={{ color: "black", fontSize: "30px" }}
           ></i>
         </div>
       )}
@@ -43,6 +43,7 @@ const carouselProperties = {
   slidesToScroll: 1,
   infinite: true,
   speed: 500,
+  autoplay:'true',
 };
 
 export const Slide = () => {
@@ -67,9 +68,10 @@ const Card = ({ item }) => {
         alt=""
         style={{
           width: "100%",
-          height: "70vh",
+          height: "72vh",
           marginBottom: "10px",
           objectFit: "cover",
+          borderRadius:'0px'
         }}
       />
     </div>

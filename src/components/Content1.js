@@ -1,7 +1,8 @@
 import React from "react";
-import one from "./lottie/one.json"
-import two from "./lottie/two.json"
-import three from "./lottie/three.json"
+import one from "./lottie/one.json";
+import two from "./lottie/two.json";
+import three from "./lottie/three.json";
+import ten from "./lottie/ten.json";
 import Lottie from "lottie-react";
 
 const Content1 = () => {
@@ -9,8 +10,10 @@ const Content1 = () => {
     <>
       <div class="container p-3">
         <div class="row">
-          <div class="col text-white text-middle" style={{ width: "50vw" }}>
-            <h1 className="p-4 style-h1">Get Fit, Strong & More Confident</h1>
+          <div class="col text-middle" style={{ width: "50vw" }}>
+            <h1 className="p-4 style-h1 text-center">
+              Get Fit, Strong & More Confident
+            </h1>
             <p>
               <span className="fw-bold">Exercise regularly: </span>
               Incorporate a regular exercise routine into your life. Exercise
@@ -41,29 +44,51 @@ const Content1 = () => {
               progress you have made.
             </p>
             <p className="mt-5 text-center">
-              Get now <span style={{ color: "#75b83b" }}>Maikei</span> app from
+              Get now <span style={{ color: "#949" }}>Maikei</span> app from
               playstore
             </p>
-            <button className="btn-download">Download Now <span>
+            <button
+              className="btn-download"
+              style={{ backgroundColor: "#949" }}
+            >
+              Download Now{" "}
+              <span>
                 <i class="fa-solid fa-download"></i>
-              </span></button>
+              </span>
+            </button>
           </div>
           <div class="col">
-            <Lottie
-              animationData={one}
-              loop={true}
-              style={{ width: "16vw" }}
-            ></Lottie>
-            <Lottie
-              animationData={two}
-              loop={true}
-              style={{ width: "16vw", marginLeft: "25vw" }}
-            ></Lottie>
-            <Lottie
-              animationData={three}
-              loop={true}
-              style={{ width: "16vw" }}
-            ></Lottie>
+            <div className="row">
+              <Lottie
+                animationData={one}
+                loop={true}
+                style={{ width: "20vw" }}
+              ></Lottie>
+              <Lottie
+                animationData={two}
+                loop={true}
+                style={{ width: "20vw" }}
+              ></Lottie>
+            </div>
+            <div
+              className="row"
+              style={{
+                marginLeft: "29px",
+                position: "absolute",
+                right: "25px",
+              }}
+            >
+              <Lottie
+                animationData={three}
+                loop={true}
+                style={{ width: "20vw" }}
+              ></Lottie>
+              <Lottie
+                animationData={ten}
+                loop={true}
+                style={{ width: "20vw", marginTop: "5rem" }}
+              ></Lottie>
+            </div>
           </div>
         </div>
       </div>

@@ -4,22 +4,20 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <hr className="text-white"></hr>
       <footer
-        className="footer-custom section footer-classic context-dark bg-image text-white "
+        className="footer-custom section footer-classic context-dark bg-image \ "
         style={{
-          backgroundColor: "#db346b",
           position: "",
           bottom: "0",
-          padding: "50px 25px",
-          marginLeft: "25px",
+          padding: "50px 35px",
         }}
       >
+        <hr class="mb-5" style={{ backgroundColor: "#e0e0e0", opacity: "1" }} />
         <div className="">
           <div className="row row-30">
             <div
               className="col-md-4 col-xl-5 d-flex"
-              style={{ alignItems: "center"}}
+              style={{ alignItems: "center" }}
             >
               <div className="pr-xl-4">
                 <p>
@@ -45,7 +43,7 @@ const Footer = () => {
                 <dd>
                   <a
                     href="tel:9863015792"
-                    className="text-white text-decoration-none"
+                    className="text-underline-hover hover-text-white text-decoration-none"
                   >
                     +91 8974922925
                   </a>
@@ -54,17 +52,22 @@ const Footer = () => {
             </div>
             <div className="col-md-4 col-xl-3 text-center">
               <h4>Links</h4>
-              <ul className="nav-list" style={{ listStyle: "none",display:'flex',flexDirection:'column',gap:'10px' }}>
+              <ul
+                className="nav-list"
+                style={{
+                  listStyle: "none",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "10px",
+                }}
+              >
                 <li>
-                  <a href="/toc" className="text-white text-underline-hover">
+                  <a href="/toc" className="nav-link text-underline-hover">
                     TermsandCondition
                   </a>
                 </li>
                 <li>
-                  <Link
-                    to="/about"
-                    className="text-underline-hover text-white"
-                  >
+                  <Link to="/about" className="nav-link text-underline-hover \">
                     About Us
                   </Link>
                 </li>

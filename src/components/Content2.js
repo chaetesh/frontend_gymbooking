@@ -2,6 +2,7 @@ import React from "react";
 import four from "./lottie/four.json";
 import five from "./lottie/five.json";
 import six from "./lottie/six.json";
+import ten from "./lottie/ten.json";
 import Lottie from "lottie-react";
 
 const Content2 = () => {
@@ -10,28 +11,39 @@ const Content2 = () => {
       <div class="container p-3 mt-5">
         <div class="row">
           <div class="col">
-            <Lottie
-              animationData={four}
-              loop={true}
-              style={{ width: "16vw" }}
-            ></Lottie>
-            <Lottie
-              animationData={five}
-              loop={true}
-              style={{ width: "16vw", marginLeft: "25vw" }}
-            ></Lottie>
-            <Lottie
-              animationData={six}
-              loop={true}
-              style={{ width: "16vw" }}
-            ></Lottie>
+            <div className="row">
+              <Lottie
+                animationData={four}
+                loop={true}
+                style={{ width: "20vw" }}
+              ></Lottie>
+              <Lottie
+                animationData={five}
+                loop={true}
+                style={{ width: "20vw" }}
+              ></Lottie>
+            </div>
+            <div
+              className="row"
+              style={{
+                marginLeft: "-80px",
+              }}
+            >
+              <Lottie
+                animationData={six}
+                loop={true}
+                style={{ width: "20vw" }}
+              ></Lottie>
+              <Lottie
+                animationData={ten}
+                loop={true}
+                style={{ width: "20vw", marginTop: "5rem" }}
+              ></Lottie>
+            </div>
           </div>
 
-          <div
-            class="col text-white text-middle"
-            style={{ width: "50vw" }}
-          >
-            <h1 className="p-4 style-h1">Book Early & Save More</h1>
+          <div class="col \ text-middle" style={{ width: "50vw" }}>
+            <h1 className="p-4 style-h1 text-center">Book Early & Save More</h1>
             <p>
               <span className="fw-bold">
                 For those who plan ahead, there are some special discounts

@@ -7,7 +7,7 @@ const Navbar = () => {
       {/* <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
         <div
           class="nav-custom container-fluid justify-content-center"
-          style={{ backgroundColor: "#db346b" }}
+          style={{ backgroundColor: "#88C949" }}
         >
           <img
             src="/Maikei.png"
@@ -30,31 +30,31 @@ const Navbar = () => {
             <ul class="navbar-nav ms-auto text-center gap-3">
               <li class="nav-item">
                 <a
-                  class="nav-link active text-white"
+                  class="nav-link active \"
                   aria-current="page"
                   href="#"
-                  style={{ fontSize: "1.1rem" }}
+                  style={{ fontSize: "1.3rem" }}
                 >
                   Home
                 </a>
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link text-white"
+                  class="nav-link \"
                   href="#"
-                  style={{ fontSize: "1.1rem" }}
+                  style={{ fontSize: "1.3rem" }}
                 >
                   About
                 </a>
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link text-white"
+                  class="nav-link \"
                   href="#"
-                  style={{ fontSize: "1.1rem" }}
+                  style={{ fontSize: "1.3rem" }}
                 >
                   <button
-                    class="text-white"
+                    class="\"
                     style={{
                       padding: "2px 7px",
                       borderRadius: "5px",
@@ -83,7 +83,7 @@ const Navbar = () => {
                     src="/Maikei.png"
                     class="navbar-brand mt-2"
                     href="#"
-                    style={{ width: "120px", height: "65px" }}
+                    style={{ width: "190px", height: "65px" }}
                   ></img>
                 </a>
               </div>
@@ -92,12 +92,15 @@ const Navbar = () => {
         </div>
       </div>
       <nav
-        class="navbar navbar-expand-lg bg-body-tertiary"
-        style={{ height: "9vh" }}
+        class="navbar navbar-expand-lg"
+        style={{ height: "9vh", marginTop: "20px" }}
       >
         <div
           class="container-fluid"
-          style={{ backgroundColor: "#db346b", height: "9vh",paddingLeft:'45px' }}
+          style={{
+            height: "9vh",
+            paddingLeft: "45px",
+          }}
         >
           <button
             class="navbar-toggler"
@@ -113,48 +116,52 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav gap-4">
               <Link
-                class="nav-link text-white text-underline-hover"
+                class="nav-link text-underline-hover hover-text-white"
                 aria-current="page"
                 to="/"
-                style={{ fontSize: "1.1rem" }}
+                style={{ fontSize: "1.3rem" }}
               >
                 Home
               </Link>
               <Link
-                class="nav-link text-white text-underline-hover"
-                to="/about"
-                style={{ fontSize: "1.1rem" }}
+                class="nav-link text-underline-hover hover-text-white"
+                aria-current="page"
+                to="/events"
+                style={{ fontSize: "1.3rem" }}
               >
-                About
+                Event Booking
               </Link>
               <Link
-                class="nav-link text-white text-underline-hover"
-                to="/posts"
-                style={{ fontSize: "1.1rem" }}
-              >
-                Posts
-              </Link>
-              <Link
-                class="nav-link text-white text-underline-hover"
-                to="/posts"
-                style={{ fontSize: "1.1rem" }}
+                class="nav-link \ text-underline-hover hover-text-white"
+                to="/mytickets"
+                style={{ fontSize: "1.3rem" }}
               >
                 My Tickets
               </Link>
               <Link
-                class="nav-link text-white text-underline-hover"
+                class="nav-link text-underline-hover hover-text-white"
                 to="/posts"
-                style={{ fontSize: "1.1rem" }}
+                style={{ fontSize: "1.3rem" }}
+              >
+                Posts
+              </Link>
+              <Link
+                class="nav-link \ text-underline-hover hover-text-white"
+                to="/offers"
+                style={{ fontSize: "1.3rem" }}
               >
                 Offers&Copouns
               </Link>
-              <a
-                class="nav-link text-white"
-                href="#"
-                style={{ fontSize: "1.1rem" }}
+              <Link
+                class="nav-link text-underline-hover hover-text-white"
+                to="/about"
+                style={{ fontSize: "1.3rem" }}
               >
+                About
+              </Link>
+              <Link class="nav-link" to="contactus" style={{ fontSize: "1.3rem" }}>
                 <button
-                  class="text-white"
+                  class="hover-text-white"
                   style={{
                     padding: "2px 7px",
                     borderRadius: "5px",
@@ -164,7 +171,27 @@ const Navbar = () => {
                 >
                   Contact Us
                 </button>
-              </a>
+              </Link>
+              <Link
+                class="nav-link"
+                to="/signUp"
+                style={{ fontSize: "1.3rem" }}
+              >
+                <button
+                  class="hover-text-white"
+                  style={{
+                    padding: "2px 7px",
+                    borderRadius: "5px",
+                    backgroundColor: "#18b718",
+                    border: "none",
+                    position: "absolute",
+                    right: "0",
+                    margin: "0px 20px",
+                  }}
+                >
+                  Login/SignUp
+                </button>
+              </Link>
             </div>
           </div>
         </div>
