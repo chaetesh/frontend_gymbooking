@@ -3,18 +3,30 @@ import { Card, Image, Text, Badge, Group } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { Modal } from "@mantine/core";
 import { Container, Paper, TextInput, Button, Select } from "@mantine/core";
+import { Calendar } from "@mantine/dates";
 
 const EventBook = () => {
   const [opened, { open, close }] = useDisclosure(false);
   // Create state variables to store user input
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [eventDate, seteventDate] = useState("");
   const [mobileNumber, setMobileNumber] = useState("");
   const [selectedValue, setSelectedValue] = useState(null);
   const options = [
     { label: "1", value: "1" },
     { label: "2", value: "2" },
     { label: "3", value: "3" },
+  ];
+    const timeOptions = [
+    { label: "9 AM - 10 AM", value: "9 AM" },
+    { label: "10 AM - 11 AM", value: "10 AM" },
+    { label: "11 AM - 12 PM", value: "11 AM" },
+    { label: "2 PM - 3 PM", value: "2 PM" },
+    { label: "3 PM - 4 PM", value: "3 PM" },
+    { label: "4 PM - 5 PM", value: "4 PM" },
+    { label: "5 PM - 6 PM", value: "5 PM" },
+    { label: "6 PM - 7 PM", value: "6 PM" },
   ];
   const handleSelectChange = (value) => {
     setSelectedValue(value);
@@ -38,6 +50,7 @@ const EventBook = () => {
         class=""
         style={{ backgroundColor: "#ECF9E1", padding: "20px 80px" }}
       >
+        <h1>Event Booking</h1>
         <div class="row">
           <div class="col-md-4 mt-3">
             <Card
@@ -54,7 +67,7 @@ const EventBook = () => {
               </Card.Section>
 
               <Group position="apart" mt="md" mb="xs">
-                <Text weight={500}>Ace Productions - Broken Images</Text>
+                <Text weight={600}>Ace Productions - Broken Images</Text>
                 <Badge color="pink" variant="light">
                   On 24th Aug, 2023
                 </Badge>
@@ -113,6 +126,21 @@ const EventBook = () => {
                         value={selectedValue}
                         onChange={handleSelectChange}
                       />
+                      <p className="mantine-1fzet7j mt-3">Pick a Date</p>
+                      <Calendar
+                        label="Pick date"
+                        placeholder="Pick date"
+                        value={eventDate}
+                        onChange={seteventDate}
+                      />
+                      <Select
+                        className="mt-3"
+                        data={timeOptions}
+                        label="Select Time Slot"
+                        required
+                        value={selectedValue}
+                        onChange={handleSelectChange}
+                      />
                       <Button
                         style={{ margin: "20px 0px" }}
                         type="submit"
@@ -148,7 +176,7 @@ const EventBook = () => {
               </Card.Section>
 
               <Group position="apart" mt="md" mb="xs">
-                <Text weight={500}>West Side Story</Text>
+                <Text weight={600}>West Side Story</Text>
                 <Badge color="pink" variant="light">
                   On 27th Aug, 2023
                 </Badge>
@@ -188,7 +216,7 @@ const EventBook = () => {
               </Card.Section>
 
               <Group position="apart" mt="md" mb="xs">
-                <Text weight={500}>MotoGP Bharat 2023</Text>
+                <Text weight={600}>MotoGP Bharat 2023</Text>
                 <Badge color="pink" variant="light">
                   On 24th Aug, 2023
                 </Badge>
@@ -228,7 +256,7 @@ const EventBook = () => {
               </Card.Section>
 
               <Group position="apart" mt="md" mb="xs">
-                <Text weight={500}>Toiletpaper: Run As Slow As You Can</Text>
+                <Text weight={600}>Toiletpaper: Run As Slow As You Can</Text>
                 <Badge color="pink" variant="light">
                   On 24th Aug, 2023
                 </Badge>

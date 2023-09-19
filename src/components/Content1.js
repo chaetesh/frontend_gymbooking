@@ -2,6 +2,7 @@ import React from "react";
 import one from "./lottie/one.json";
 import two from "./lottie/two.json";
 import three from "./lottie/three.json";
+import exercise from "./lottie/exercise.json";
 import ten from "./lottie/ten.json";
 import Lottie from "lottie-react";
 
@@ -10,7 +11,7 @@ const Content1 = () => {
     <>
       <div class="container p-3">
         <div class="row">
-          <div class="col text-middle" style={{ width: "50vw" }}>
+          <div class="col text-middle text-11" style={{ width: "50vw" }}>
             <h1 className="p-4 style-h1 text-center">
               Get Fit, Strong & More Confident
             </h1>
@@ -79,7 +80,7 @@ const Content1 = () => {
               }}
             >
               <Lottie
-                animationData={three}
+                animationData={exercise}
                 loop={true}
                 style={{ width: "20vw" }}
               ></Lottie>

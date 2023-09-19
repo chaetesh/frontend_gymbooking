@@ -90,7 +90,8 @@ code {
 }
 
 .btn:hover {
-  background: #32a0e9;
+  background: #333333d6;
+  color: white;
 }
 
 .offer {
@@ -204,4 +205,8 @@ code {
   #info #mobile-plane img {
     width: 200px;
   }
+}
+
+.text-11{
+  font-size: 1.1rem;
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import four from "./lottie/four.json";
-import five from "./lottie/five.json";
+import concert1 from "./lottie/concert1.json";
+import concert2 from "./lottie/concert2.json";
 import six from "./lottie/six.json";
 import ten from "./lottie/ten.json";
 import Lottie from "lottie-react";
@@ -13,12 +13,12 @@ const Content2 = () => {
           <div class="col">
             <div className="row">
               <Lottie
-                animationData={four}
+                animationData={concert1}
                 loop={true}
                 style={{ width: "20vw" }}
               ></Lottie>
               <Lottie
-                animationData={five}
+                animationData={concert2}
                 loop={true}
                 style={{ width: "20vw" }}
               ></Lottie>
@@ -43,16 +43,21 @@ const Content2 = () => {
           </div>
 
           <div class="col text-11 text-middle" style={{ width: "50vw" }}>
-            <h1 className="p-4 style-h1 text-center">Book Early & Save More</h1>
+            <h1 className="p-4 style-h1 text-center">
+              Attend Amazing Concerts
+            </h1>
             <p>
-              <span className="fw-bold">
-                For those who plan ahead, there are some special discounts
-                available:{" "}
-              </span>
-              Book your Football turf , Resorts, Picnic spot, Night stay, Home
-              stay, Gym, Zumba, swimming pool, Dine out Restaurants, trekking
-              spot . early and save more. For bookings made at least 21 days in
-              advance, customers can enjoy up to 15% off.
+              A concert is a vibrant and exhilarating experience where music
+              comes alive. It's a gathering of people who share a passion for
+              melodies, beats, and lyrics, all harmonizing in the air.
+            </p>
+            <p>
+              The stage is a focal point, where talented musicians pour their
+              hearts into their craft, creating an atmosphere charged with
+              energy and emotion. Concerts are more than just auditory delight;
+              they're a collective celebration of artistry, connecting
+              individuals through the universal language of music, leaving
+              lasting memories and a sense of unity in their wake.
             </p>
           </div>
         </div>

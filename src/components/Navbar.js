@@ -159,18 +159,12 @@ const Navbar = () => {
               >
                 About
               </Link>
-              <Link class="nav-link" to="contactus" style={{ fontSize: "1.3rem" }}>
-                <button
-                  class="hover-text-white"
-                  style={{
-                    padding: "2px 7px",
-                    borderRadius: "5px",
-                    backgroundColor: "#18b718",
-                    border: "none",
-                  }}
-                >
-                  Contact Us
-                </button>
+              <Link
+                class="nav-link text-underline-hover hover-text-white"
+                to="contactus"
+                style={{ fontSize: "1.3rem" }}
+              >
+                Contact Us
               </Link>
               <Link
                 class="nav-link"
@@ -189,6 +183,7 @@ const Navbar = () => {
                     margin: "0px 20px",
                   }}
                 >
+                  <i class="fa-solid fa-right-to-bracket m-2"></i>
                   Login/SignUp
                 </button>
               </Link>

@@ -12,6 +12,9 @@ import Posts from "./components/Posts";
 import SignUp from "./components/SignUp";
 import { Slide } from "./components/Slide";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import TreckBooking from "./components/TreckBooking";
+import Content4 from "./components/Content4";
+import Content5 from "./components/Content5";
 
 function App() {
   return (
@@ -27,13 +30,23 @@ function App() {
               <Content1></Content1>
               <Content2></Content2>
               <Content3></Content3>
+              <Content4></Content4>
+              <Content5></Content5>
             </>
           }
         />
         <Route path="/about" element={<About></About>} />
         <Route path="/posts" element={<Posts></Posts>} />
         <Route path="/offers" element={<Offers></Offers>} />
-        <Route path="/events" element={<EventBook></EventBook>} />
+        <Route
+          path="/events"
+          element={
+            <>
+              <EventBook></EventBook>
+              <TreckBooking></TreckBooking>
+            </>
+          }
+        />
         <Route path="/signUp" element={<SignUp></SignUp>} />
         <Route path="/mytickets" element={<MyTickets></MyTickets>} />
         <Route path="/contactus" element={<ContactUs></ContactUs>} />

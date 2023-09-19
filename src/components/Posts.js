@@ -25,7 +25,7 @@ const Posts = () => {
           />
         </Card.Section>
 
-        <div style={{margin:'20px 60px'}}>
+        <div style={{margin:'20px 60px',padding:'0px 40px'}}>
           <Group position="apart" mt="md" mb="xs">
             <Text weight={500} color="black">
               Norway Fjord Adventures
@@ -66,7 +66,7 @@ const Posts = () => {
           />
         </Card.Section>
 
-        <div style={{margin:'20px 60px'}}>
+        <div style={{margin:'20px 60px',padding:'0px 40px'}}>
         <Group position="apart" mt="md" mb="xs">
           <Text weight={500} color="black">
             Norway Fjord Adventures
@@ -106,7 +106,7 @@ const Posts = () => {
           />
         </Card.Section>
 
-        <div style={{margin:'20px 60px'}}>
+        <div style={{margin:'20px 60px',padding:'0px 40px'}}>
         <Group position="apart" mt="md" mb="xs">
           <Text weight={500} color="black">
             Norway Fjord Adventures

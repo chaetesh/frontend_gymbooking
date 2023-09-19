@@ -9,7 +9,7 @@ const Content3 = () => {
     <>
       <div class="container p-3">
         <div class="row">
-          <div class="col \ text-middle" style={{ width: "50vw" }}>
+          <div class="col text-11 text-middle" style={{ width: "50vw" }}>
             <h1 className="p-4 style-h1 text-center">Take Control Your Game</h1>
             <p>
               <span className="fw-bold">

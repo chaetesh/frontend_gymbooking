@@ -54,6 +54,7 @@ const MyTickets = () => {
                           <p class="text-muted mb-0 small">Track Order</p>
                         </div>
                         <div class="col-md-10">Event Booked</div>
+                      <button className='btn mt-5' style={{margin:'0px 0px',padding:'5px 0px'}}>Download</button>
                       </div>
                     </div>
                   </div>
