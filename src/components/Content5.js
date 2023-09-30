@@ -29,7 +29,7 @@ const Content5 = () => {
               reflect, and be inspired by the beauty of the natural world.
             </p>
           </div>
-          <div class="col">
+          <div class="col d-nonesm">
             <Lottie
               animationData={seven}
               loop={true}

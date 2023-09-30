@@ -50,7 +50,7 @@ const Content1 = () => {
             </p>
             <button
               className="btn-download"
-              style={{ backgroundColor: "#949" }}
+              style={{ backgroundColor: "#949",margin:'auto' }}
             >
               Download Now{" "}
               <span>
@@ -58,7 +58,7 @@ const Content1 = () => {
               </span>
             </button>
           </div>
-          <div class="col">
+          <div class="col d-nonesm">
             <div className="row">
               <Lottie
                 animationData={one}

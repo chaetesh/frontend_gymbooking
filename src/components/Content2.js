@@ -10,7 +10,7 @@ const Content2 = () => {
     <>
       <div class="container p-3 mt-5">
         <div class="row">
-          <div class="col">
+          <div class="col d-nonesm">
             <div className="row">
               <Lottie
                 animationData={four}

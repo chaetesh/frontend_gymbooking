@@ -27,7 +27,7 @@ const Navbar = () => {
       </div>
       <nav class="navbar navbar-expand-lg" style={{ marginTop: "20px" }}>
         <div
-          class="container-fluid"
+          class="container-fluid container-fluid-btn"
           style={{
             paddingLeft: "45px",
           }}

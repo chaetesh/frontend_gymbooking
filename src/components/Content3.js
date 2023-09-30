@@ -50,7 +50,7 @@ const Content3 = () => {
               It can be hard to turn off a game once you've
             </p>
           </div>
-          <div class="col">
+          <div class="col d-nonesm">
             <Lottie
               animationData={seven}
               loop={true}

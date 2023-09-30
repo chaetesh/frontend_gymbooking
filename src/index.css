@@ -101,6 +101,12 @@ code {
 /* Smartphones in portrait mode */
 @media screen and (max-width: 767px) {
   .multi__image{
-    height: 20vh !important;
+    height: 22vh !important;
+  }
+  .container-fluid-btn{
+    padding-left: 20px !important;
+  }
+  .d-nonesm{
+    display: none !important;
   }
 }
