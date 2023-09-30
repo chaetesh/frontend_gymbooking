@@ -11,7 +11,7 @@ const PreviousBtn = (props) => {
       {currentSlide !== 0 && (
         <div className={className} onClick={onClick}>
           <i
-            class="fa-solid fa-caret-left \"
+            class="fa-solid fa-caret-left"
             style={{ color: "black", fontSize: "30px" }}
           ></i>
         </div>
@@ -26,7 +26,7 @@ const NextBtn = (props) => {
       {currentSlide !== slideCount - slidesToShow && (
         <div className={className} onClick={onClick}>
           <i
-            class="fa-solid fa-caret-right \"
+            class="fa-solid fa-caret-right"
             style={{ color: "black", fontSize: "30px" }}
           ></i>
         </div>
