@@ -128,4 +128,8 @@ code {
   .book-sm{
     padding: 20px 40px !important;
   }
+
+  .post-sm{
+    padding: 0px 20px !important;
+  }
 }

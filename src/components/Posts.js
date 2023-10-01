@@ -9,7 +9,7 @@ const Posts = () => {
         style={{
           background: "#ECF9E1",
           padding: "25px 20px",
-          borderRadius:'0px',
+          borderRadius: "0px",
         }}
         color="white"
       >
@@ -25,12 +25,15 @@ const Posts = () => {
           />
         </Card.Section>
 
-        <div style={{margin:'20px 60px',padding:'0px 40px'}}>
+        <div
+          className="post-sm"
+          style={{ margin: "20px 60px", padding: "0px 40px" }}
+        >
           <Group position="apart" mt="md" mb="xs">
             <Text weight={500} color="black">
               Norway Fjord Adventures
             </Text>
-            <Badge color="dimmed" variant="dark">
+            <Badge color="dimmed" variant="dark" style={{ padding: "0px 0px" }}>
               Posted on Aug 9, 2023
             </Badge>
           </Group>
@@ -66,24 +69,28 @@ const Posts = () => {
           />
         </Card.Section>
 
-        <div style={{margin:'20px 60px',padding:'0px 40px'}}>
-        <Group position="apart" mt="md" mb="xs">
-          <Text weight={500} color="black">
-            Norway Fjord Adventures
+        <div
+          className="post-sm"
+          style={{ margin: "20px 60px", padding: "0px 40px" }}
+        >
+          <Group position="apart" mt="md" mb="xs">
+            <Text weight={500} color="black">
+              Norway Fjord Adventures
+            </Text>
+            <Badge color="dimmed" variant="dark" style={{ padding: "0px 0px" }}>
+              Posted on Aug 9, 2023
+            </Badge>
+          </Group>
+
+          <Text size="sm" color="black">
+            With Fjord Tours you can explore more of the magical fjord
+            landscapes with tours and activities on and around the fjords of
+            Norway
           </Text>
-          <Badge color="dimmed" variant="dark">
-            Posted on Aug 9, 2023
-          </Badge>
-        </Group>
 
-        <Text size="sm" color="black">
-          With Fjord Tours you can explore more of the magical fjord landscapes
-          with tours and activities on and around the fjords of Norway
-        </Text>
-
-        <Button color="green" mt="md" radius="md">
-          Read More...
-        </Button>
+          <Button color="green" mt="md" radius="md">
+            Read More...
+          </Button>
         </div>
       </Card>
 
@@ -106,24 +113,28 @@ const Posts = () => {
           />
         </Card.Section>
 
-        <div style={{margin:'20px 60px',padding:'0px 40px'}}>
-        <Group position="apart" mt="md" mb="xs">
-          <Text weight={500} color="black">
-            Norway Fjord Adventures
+        <div
+          className="post-sm"
+          style={{ margin: "20px 60px", padding: "0px 40px" }}
+        >
+          <Group position="apart" mt="md" mb="xs">
+            <Text weight={500} color="black">
+              Norway Fjord Adventures
+            </Text>
+            <Badge color="dimmed" variant="dark" style={{ padding: "0px 0px" }}>
+              Posted on Aug 9, 2023
+            </Badge>
+          </Group>
+
+          <Text size="sm" color="black">
+            With Fjord Tours you can explore more of the magical fjord
+            landscapes with tours and activities on and around the fjords of
+            Norway
           </Text>
-          <Badge color="dimmed" variant="dark">
-            Posted on Aug 9, 2023
-          </Badge>
-        </Group>
 
-        <Text size="sm" color="black">
-          With Fjord Tours you can explore more of the magical fjord landscapes
-          with tours and activities on and around the fjords of Norway
-        </Text>
-
-        <Button color="green" mt="md" radius="md">
-          Read More...
-        </Button>
+          <Button color="green" mt="md" radius="md">
+            Read More...
+          </Button>
         </div>
       </Card>
     </>
