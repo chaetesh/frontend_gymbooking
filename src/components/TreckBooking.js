@@ -37,7 +37,7 @@ const TreckBooking = () => {
   return (
     <>
       <div
-        class=""
+        class="book-sm"
         style={{ backgroundColor: "#ECF9E1", padding: "20px 80px" }}
       >
         <h1>Trecking Booking</h1>

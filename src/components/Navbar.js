@@ -25,7 +25,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <nav class="navbar navbar-expand-lg" style={{ marginTop: "20px" }}>
+      <nav class="navbar navbar-expand-lg" style={{ marginTop: "20px",marginBottom:'20px' }}>
         <div
           class="container-fluid container-fluid-btn"
           style={{

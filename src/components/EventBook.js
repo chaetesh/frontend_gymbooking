@@ -47,7 +47,7 @@ const EventBook = () => {
   return (
     <>
       <div
-        class=""
+        class="book-sm"
         style={{ backgroundColor: "#ECF9E1", padding: "20px 80px" }}
       >
         <h1>Event Booking</h1>

@@ -3,7 +3,10 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div className="" style={{ backgroundColor: "#ECF9E1",padding:'100px 200px' }}>
+      <div
+        className="about-sm"
+        style={{ backgroundColor: "#ECF9E1", padding: "100px 200px" }}
+      >
         <div className="box">
           <h1>About Us</h1>
           <p>

@@ -52,7 +52,7 @@ code {
   text-decoration: underline;
 }
 
-.hover-text-white:hover{
+.hover-text-white:hover {
   color: white;
 }
 
@@ -94,19 +94,38 @@ code {
   display: none;
 }
 
-.text-11{
+.text-11 {
   font-size: 1.1rem;
 }
 
 /* Smartphones in portrait mode */
 @media screen and (max-width: 767px) {
-  .multi__image{
+  .multi__image {
     height: 22vh !important;
   }
-  .container-fluid-btn{
+
+  .container-fluid-btn {
     padding-left: 20px !important;
   }
-  .d-nonesm{
+
+  .d-nonesm {
     display: none !important;
+  }
+
+  .about-sm {
+    padding: 0px 50px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .box {
+    margin: 30px 0px;
+  }
+
+  .book-sm{
+    padding: 20px 40px !important;
   }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import four from "./lottie/four.json";
 import five from "./lottie/five.json";
 import six from "./lottie/six.json";
-import ten from "./lottie/ten.json";
+import eight from "./lottie/eight.json";
 import Lottie from "lottie-react";
 
 const Content2 = () => {
@@ -13,7 +13,7 @@ const Content2 = () => {
           <div class="col d-nonesm">
             <div className="row">
               <Lottie
-                animationData={four}
+                animationData={five}
                 loop={true}
                 style={{ width: "20vw" }}
               ></Lottie>
@@ -35,7 +35,7 @@ const Content2 = () => {
                 style={{ width: "20vw" }}
               ></Lottie>
               <Lottie
-                animationData={ten}
+                animationData={eight}
                 loop={true}
                 style={{ width: "20vw", marginTop: "5rem" }}
               ></Lottie>

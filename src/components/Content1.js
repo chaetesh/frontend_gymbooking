@@ -1,9 +1,9 @@
 import React from "react";
 import one from "./lottie/one.json";
 import two from "./lottie/two.json";
-import three from "./lottie/three.json";
+import four from "./lottie/four.json";
 import exercise from "./lottie/exercise.json";
-import ten from "./lottie/ten.json";
+import three from "./lottie/three.json";
 import Lottie from "lottie-react";
 
 const Content1 = () => {
@@ -66,7 +66,7 @@ const Content1 = () => {
                 style={{ width: "20vw" }}
               ></Lottie>
               <Lottie
-                animationData={two}
+                animationData={exercise}
                 loop={true}
                 style={{ width: "20vw" }}
               ></Lottie>
@@ -80,12 +80,12 @@ const Content1 = () => {
               }}
             >
               <Lottie
-                animationData={exercise}
+                animationData={three}
                 loop={true}
                 style={{ width: "20vw" }}
               ></Lottie>
               <Lottie
-                animationData={ten}
+                animationData={four}
                 loop={true}
                 style={{ width: "20vw", marginTop: "5rem" }}
               ></Lottie>
